@@ -17,8 +17,8 @@ Inicio
    Escreval("Digite o número a ser pesquisado")
    Leia(num)
    Para I de 1 ate 10 Faca
-      Se(vet[i] = num)Entao
-         Escreval("A posição de", num, "é: ", vet[i])
+      Se(num = vet [i])Entao
+         Escreval("A posição de", num, " é: ", i)
       fimse
    fimpara
 
